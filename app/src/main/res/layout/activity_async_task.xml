@@ -1,0 +1,55 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btn_counter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Start ProgressBar" />
+
+        <ProgressBar
+            android:id="@+id/pb_counter"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:indeterminate="false"
+            android:max="100000" />
+
+        <TextView
+            android:id="@+id/tv_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Waiting..." />
+
+        <ImageView
+            android:id="@+id/imv_avatar"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="16dp" />
+
+        <Button
+            android:id="@+id/btn_download_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Download Image" />
+
+        <Button
+            android:id="@+id/btn_download_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Download Text" />
+
+        <TextView
+            android:id="@+id/tv_web_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="8dp" />
+    </LinearLayout>
+</ScrollView>
